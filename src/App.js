@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="login-box">
         <div className="email">
-          <label htmlFor="email">E-mail: </label>
+          <label htmlFor="email"><b>E-mail: </b></label>
           <input
           id="email"
           type="email"
@@ -15,12 +15,16 @@ function App() {
         </div>
         
         <div className="password">
-          <label htmlFor="password">Password: </label>
+          <label htmlFor="password"><b>Password: </b></label>
           <input
           id="password"
           type="password"
           placeholder="********"
           />
+        </div>
+
+        <div className="login">
+          <button><b>Sign in</b></button>
         </div>
 
       </div>
