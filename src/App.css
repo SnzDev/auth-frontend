@@ -38,7 +38,7 @@ input{
   margin: 0px auto;
 }
 button:hover {
-  opacity: 0.8;
+  background-color: #2c245f;
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ button:hover {
 button {
   width: auto;
   padding: 10px 18px;
-  background-color: darkslateblue;
+  background-color: #483d8b;
   color: white;
 }
 
